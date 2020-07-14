@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace SecretLibrary.App_Code.Common
+namespace SecretLibrary.Model.Common
 {
-    public class Languages
+    public class Translator
     {
         public String ID;
-        public String Language;
+        public String FirstName;
+        public String LastName;
     }
 }

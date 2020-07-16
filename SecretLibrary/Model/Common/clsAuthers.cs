@@ -17,9 +17,13 @@ namespace SecretLibrary.Model.Common
             {
                 String strFirstName = value.ToString();
 
-                if (strFirstName == "")
+                if ((strFirstName == "") || (strFirstName.Length == 0) || (strFirstName == null))
                 {
                     throw new Exception("First name cannot be empty.");
+                }
+                else if (strFirstName.Length >= 50)
+                {
+                    throw new Exception("First name cannot greater than 50 characters");
                 }
                 else
                 {
@@ -38,9 +42,13 @@ namespace SecretLibrary.Model.Common
             {
                 String strLastName = value.ToString();
 
-                if (strLastName == "")
+                if ((strLastName == "") || (strLastName.Length == 0) || (strLastName == null))
                 {
                     throw new Exception("Last name cannot be empty.");
+                }
+                else if (strLastName.Length >= 50)
+                {
+                    throw new Exception("Last name cannot greater than 50 characters");
                 }
                 else
                 {

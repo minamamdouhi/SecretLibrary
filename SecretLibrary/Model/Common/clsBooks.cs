@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SecretLibrary.Model.Common
 {
-    public class Books
+    public class clsBooks
     {
         public String ID;
         public String Name;

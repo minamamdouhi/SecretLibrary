@@ -5,10 +5,9 @@ using System.Web;
 
 namespace SecretLibrary.Model.Common
 {
-    public class Translator
+    public class clsCategories
     {
         public String ID;
-        public String FirstName;
-        public String LastName;
+        public String Name;
     }
 }

@@ -5,9 +5,9 @@ using System.Web;
 
 namespace SecretLibrary.Model.Common
 {
-    public class Categories
+    public class clsLanguages
     {
         public String ID;
-        public String Name;
+        public String Language;
     }
 }
